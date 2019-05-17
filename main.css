@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+	background: #141b23;
+	max-width: 1000px;
+	max-height: 666px;
+}
+.photo {
+	display: block;
+	background-attachment: scroll;
+	box-sizing: border-box;
+	position: absolute;
+	left: 333px;
+	right: -20px;
+	top: -1px;
+	bottom: 208px;
+	border-left: 5px;
+}
+ul {
+	margin-top: 65px;
+	margin-left: 55px;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul li{
+	display: inline;
+	margin-right: 10px;
+	box-sizing: border-box;
+	opacity: 0.87;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+	color: #b1bbcb;
+	font-family: "Franklin Gothic";
+	font-size: 15px;
+}
+.um{
+	margin-right: 20px;
+}
+.autor .album {
+	margin-right: 5px;
+}
+.head{
+	position: relative;
+	margin-left: 96px;
+	margin-top: 71px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+	color: #ffffff;
+	font-family: "Franklin Gothic";
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.text {
+	position: fixed;
+	width: 467px;
+	height: 230px;
+	box-sizing: border-box;
+	left: 95px;
+	top: 179px;
+	margin-top: 10px;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+	color: #ffffff;
+	font-family: "Franklin Gothic";
+	font-size: 13px;
+}
+.copyright {
+	height: 9px;
+	box-sizing: border-box;
+	position: fixed;
+	left: 54px;
+	bottom: 50px;
+	opacity: 0.27;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+	color: #ffffff;
+	font-family: "Franklin Gothic";
+	font-size: 12px;
+}
