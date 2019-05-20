@@ -1,17 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:500&display=swap');
 body {
+	font-family: 'Libre Franklin', sans-serif;
 	margin: 0;
 	background-color: #141b23;
 	background-image: url("./image/background.png");
-}
-ul {
-	padding: 0;
-	margin: 0;
-}
-p {
-	margin: 0;
-}
-h2 {
-	margin: 0;
 }
 .container {
 	background-image: url("./image/bitmap.png");
@@ -24,6 +16,8 @@ h2 {
 	padding-right: 55px;
 }
 .navigation-menu {
+	padding: 0;
+	margin: 0;
 	font-size: 15px;
 	opacity: 0.87;
 	color: #b1bbcb;
@@ -38,10 +32,12 @@ h2 {
 	margin-right: 20px;
 	font-size: 17px;
 }
-.card {
+.content {
 	padding-top: 71px;
 	padding-left: 40px;
-	max-width: calc(457px + 80px);
+}
+.card {
+	max-width: 457px;
 	overflow: hidden;
 	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
 	color: #ffffff;
@@ -50,14 +46,21 @@ h2 {
 	font-size: 16px;
 	line-height: 30px;
 }
-.card-body {
+.card-header h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.card-body p {
+	margin-top: 0;
+	margin-bottom: 25px;
 	font-size: 13px;
 	line-height: 15.6px;
 }
-
-.footer {
+.footer p {
+	margin: 0;
 	opacity: 0.27;
 	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
 	color: #ffffff;
 	font-size: 12px;
+	padding-top: 198px;
 }
