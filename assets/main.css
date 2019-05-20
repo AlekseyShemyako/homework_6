@@ -1,3 +1,11 @@
 body {
 	margin: 0;
+	background-color: #141b23;
+	background-image: url("./image/background.png");
+}
+.container {
+	background-image: url("./image/bitmap.png");
+	background-repeat: no-repeat;
+	min-height: 459px;
+	background-position: right top;
 }
