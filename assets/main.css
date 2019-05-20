@@ -3,9 +3,38 @@ body {
 	background-color: #141b23;
 	background-image: url("./image/background.png");
 }
+ul {
+	padding: 0;
+	margin: 0;
+}
 .container {
 	background-image: url("./image/bitmap.png");
-	background-repeat: no-repeat;
 	min-height: 459px;
-	background-position: right top;
+	background-repeat: no-repeat;
+	background-position: right -20px top -2px;
+	padding-top: 65px;
+	padding-bottom: 50px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+.navigation-menu {
+	font-size: 15px;
+	opacity: 0.87;
+	color: #b1bbcb;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+}
+.navigation-menu-item {
+	display: inline;
+	margin-right: 13px;
+}
+.navigation-menu-logo {
+	text-transform: uppercase;
+	margin-right: 20px;
+	font-size: 17px;
+}
+.footer {
+	opacity: 0.27;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+	color: #ffffff;
+	font-size: 12px;
 }
